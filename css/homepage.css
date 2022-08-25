@@ -1,0 +1,57 @@
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    padding: 2px;
+    font-size: 0.7em;
+    background: black;
+    color: white;
+    pointer-events: none;
+}
+
+.tick text {
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+
+.rect>.work {
+    fill: orange;
+}
+.rect>.work:hover {
+    fill: blue;/*tomato; */
+    cursor: pointer;
+}
+.downtime {
+    fill: black;
+}
+.downtime:hover {
+    fill: grey;
+    cursor: pointer;
+}
+
+/* .brush rect.extent {
+    fill: steelblue;
+    fill-opacity: .125;
+  } */
+  /*Color for the brush resize path*/
+  
+  /* .brush .resize path {
+    fill: #eee;
+    stroke: #666;
+  } */
+  /*Color for the hidden object*/
+
+rect.selection {
+    fill: rgb(0, 0, 255);
+}
+
+brush.handle {
+    width:15;
+    stroke: #000;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
